@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 180%;
+    color: #444;
+    text-align: center;
+}
+
+.foto1 {
+    background-image: url(images/foto1.jpg);
+    min-height: 100%;
+}
+
+.foto2 {
+    background-image: url(images/foto2.jpg);
+    min-height: 60%;
+}
+
+.foto3 {
+    background-image: url(images/foto3.jpg);
+    min-height: 40%;
+}
+
+.foto4 {
+    background-image: url(images/foto4.jpg);
+    min-height: 100%;
+}
+
+.foto1, .foto2, .foto3, .foto4 {
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.letrero {
+    color: #fbfbfb;
+    font-size: 550%;
+    top: 40%;
+}
+
+.letrero2 {
+    color: #c76132;
+    font-size: 450%;
+    top: 55%;
+}
+
+.letrero3 {
+    color: #d17834;
+    font-size: 350%;
+    top: 68%;
+}
+
+.letrero4 {
+    color: #fff;
+    font-size: 250%;
+    top: 50%;
+}
+
+.letrero, .letrero2, .letrero3, .letrero4 {
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+
+section {
+    padding: 50px 80px;
+}
+
+.dark {
+    background-color: #444;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .letrero {
+        line-height: 90%;
+        font-size: 300%;
+    }
+
+    .letrero2 {
+        font-size: 250%;
+        top: 54%;
+    }
+
+    .letrero3 {
+        font-size: 200%;
+        top: 59%;
+    }
+}
